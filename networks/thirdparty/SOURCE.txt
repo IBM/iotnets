@@ -1,0 +1,4 @@
+The original implementation of the kuangliu_models is taken from:
+https://github.com/kuangliu/pytorch-cifar
+Accessed at 17 May 2018.
+
