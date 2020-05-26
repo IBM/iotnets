@@ -35,8 +35,8 @@ def sample(config, id):
     rstate = np.random.RandomState(id)
     # num_cells 1 - 12 num_planes0 1 - 128, num_planes1 1-4, num_planes2 1-4
     cell_types = [0]  # all A cells
-    num_cells = rstate.randint(*config["num_cells"], 3)  # orignal 6
-    # orignal 44, x*2 and x*4 (division with no remainder -> group pram!)
+    num_cells = rstate.randint(*config["num_cells"], 3)  # original 6
+    # original 44, x*2 and x*4 (division with no remainder -> group pram!)
     num_planes = [0, 0, 0]
     num_planes[0] = int(rstate.randint(*config["num_planes0"], 1)[0])
     num_planes[1] = num_planes[0] * int(rstate.randint(*config["num_planes1"], 1)[0])
