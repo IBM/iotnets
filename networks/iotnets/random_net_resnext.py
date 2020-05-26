@@ -50,11 +50,11 @@ def get_instance(net_args, num_classes):
 class ResNeXt_modified(nn.Module):
     def __init__(self, num_blocks, cardinalities, bottleneck_widths, num_c=10):
         super(ResNeXt_modified, self).__init__()
-        # ORIGNAL CONFIG ResNeXt29_2x64d
+        # ORIGINAL CONFIG ResNeXt29_2x64d
         # num_blocks = [3, 3, 3]
         # cardinalities = [2, 2, 2]
         # bottleneck_widths = [33, 66, 132]
-        # ORIGNAL CONFIG ResNeXt29_32x4d
+        # ORIGINAL CONFIG ResNeXt29_32x4d
         # num_blocks = [3, 3, 3]
         # cardinalities = [32, 32, 32]
         # bottleneck_widths = [4, 8, 16]
