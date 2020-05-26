@@ -74,7 +74,7 @@ def all_main_iotnets_manual():
     print(net)
 
 
-# nicer way to achive the same.
+# nicer way to achieve the same.
 def all_iotnets():
     for spacename in networks.ARCH_SPACES:
         print(spacename)
