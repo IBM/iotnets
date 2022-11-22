@@ -84,7 +84,7 @@ class PNASNet_modified(nn.Module):
         elif x == 1:
             return CellB
         else:
-            raise ValueError("block code {} not supported".format(block))
+            raise ValueError("block code {} not supported".format(x))
 
     def _make_layer(self, planes, cell_types, num_cells):
         layers = []
